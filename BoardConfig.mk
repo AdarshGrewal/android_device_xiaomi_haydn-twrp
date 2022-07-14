@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/lisa
+DEVICE_PATH := device/xiaomi/haydn
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,7 +33,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lisa,lisa_in,lisa_cn,lisa_global
+TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 
 # A/B
 AB_OTA_UPDATER := true
